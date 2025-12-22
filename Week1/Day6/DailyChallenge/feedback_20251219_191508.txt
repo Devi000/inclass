@@ -1,0 +1,7 @@
+URL: https://github.com/Devi000/DI_Bootcamp/blob/main/Week1/Day6/DailyChallenge/DailyChallenge.py
+Brief justification:
+- correctness: The code correctly implements the functionalities described in both challenges. Challenge 1 accurately creates the letter index dictionary. Challenge 2 correctly determines affordable items and outputs the result as specified, including the 'Nothing' case. The steps are executed in the correct order.
+- readability: The code is well-formatted and easy to read, with meaningful variable names and clear comments.
+- performance: The code has optimal performance. Challenge 1 iterates through the word once. Challenge 2 iterates through the dictionary only once.
+- security: The code doesn't have any security vulnerabilities.
+

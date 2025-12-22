@@ -1,0 +1,10 @@
+URL: https://github.com/Devi000/DI_Bootcamp/blob/main/Week1/Day6/ExerciseXP/Exercises.py
+suggestions for improvement:
+- Consider adding error handling to the user input in the Cinemax exercise to handle non-integer inputs for age.
+- Adding docstrings to functions (if you were to create them) improves readability.
+Brief justification:
+- correctness: The code accurately addresses all four exercises in the chapter. It correctly converts lists to dictionaries, calculates movie ticket costs based on age, manipulates a Zara brand dictionary, and creates Disney character dictionaries as specified in the instructions. The code fulfills all requirements and bonus challenges.
+- readability: The code is generally well-readable with clear variable names and comments explaining each section. However, better spacing and potentially breaking down larger blocks of code into smaller, more manageable chunks would enhance readability further. The user input section in Exercise 2 could benefit from more descriptive prompts.
+- performance: The code's performance is generally efficient, using appropriate data structures and algorithms for each task. The use of `zip` and dictionary comprehension in Exercise 1 and 4 contributes to good performance. User input in the Cinemax exercise (2) is relatively efficient for the given task.
+- security: The code is reasonably secure. The potential vulnerability lies in the user input in Exercise 2 where the `int()` casting could raise a `ValueError` if the user enters non-numeric data. Adding try-except blocks to handle such exceptions would improve security. The rest of the code does not involve external input or operations that pose significant security risks.
+
