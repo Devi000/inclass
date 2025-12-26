@@ -1,0 +1,13 @@
+URL: https://github.com/Devi000/DI_Bootcamp/blob/main/Week2/Day3/test.py
+suggestions for improvement:
+- The check_win function could be improved. The original attempt, commented out, was closer to correct. The issue is that it needs to check if the board positions specified in win_condition are equal to the player's symbol and not just return after checking the first win condition. It also uses all() incorrectly, causing premature termination.
+- The check_tie function is correct but could be more concise and readable by removing the commented out code.
+- The valid_moves list is being mutated alongside the board, this creates an error with the check_win function and an inability to add new moves. This should be refactored.
+- The display_board function looks good but can be slightly improved for formatting.
+- Error checking for the input is basic. The input should be validated to ensure it's in the correct format (A1-C3) and to be sure the location to be changed isn't already occupied.
+Brief justification:
+- correctness: The code addresses the core requirements of the Tic Tac Toe game. It initializes the board, displays it, takes player input, checks for a winner and a tie, and switches players. However, the check_win function is flawed due to incorrect use of all(), and valid_moves is being mutated alongside the board, leading to incorrect game logic. The game functions as described, but doesn't fully and accurately meet all the requirements due to these errors.
+- readability: The code is reasonably readable. Function names are descriptive, and the code is structured logically. However, some of the commented-out code in check_tie could be removed for better clarity. Some of the string formatting in display_board could be more concise.
+- performance: The performance is adequate for a simple Tic Tac Toe game. There are no computationally expensive operations. However, repeatedly calling valid_moves.index(move) could be slightly optimized if necessary.
+- security: There are no apparent security vulnerabilities in this code. It does not handle any external input or sensitive data.
+
