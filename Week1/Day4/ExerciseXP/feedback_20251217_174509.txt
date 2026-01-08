@@ -1,0 +1,10 @@
+URL: https://github.com/Devi000/DI_Bootcamp/blob/main/Week1/Day4/ExerciseXP/Exercises.py
+suggestions for improvement:
+- In Exercise 2, the code attempts to use `.append()` on a tuple which raises an error, it's better to demonstrate the immutability of the tuple by commenting out the incorrect line and explaining why it would cause an error instead.
+- In Exercise 4, the `mixto` list is not in the correct order (floats and integers are interleaved). You can fix this by appending float and integer inside the loop. Ex: [i+0.5, i] and flatten the list.
+Brief justification:
+- correctness: The code is almost entirely correct and addresses all exercises as described in the prompt. The sets, lists, loops, and conditional statements are all implemented correctly. There are only small issues in exercise 2 and exercise 4 where the immutability of tuples is not correctly addressed, and the list generation for floats is incorrect. Therefore, the overall correctness score is very high.
+- readability: The code is well-organized and easy to follow. Variable names are reasonably descriptive, and the code is well-commented, which helps in understanding the purpose of each section. There could be more descriptive names for some variables like `par` or `appplehm`. Therefore, readability is high.
+- performance: The code is efficient for the given problems. The loops and data structure operations are generally performant. There are no obvious areas for significant performance optimization. Overall, the performance is rated as high.
+- security: The code appears to be secure. The `input` function is used, but there's no execution of user-provided input that would lead to vulnerabilities like code injection. The `isdigit()` method is used to check user input which is a good practice. So, the code is rated as highly secure.
+

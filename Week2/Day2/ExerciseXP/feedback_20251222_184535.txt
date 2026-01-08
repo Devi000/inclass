@@ -1,0 +1,10 @@
+URL: https://github.com/Devi000/DI_Bootcamp/blob/main/Week2/Day2/ExerciseXP/Exercises.py
+suggestions for improvement:
+- Consider adding comments to explain more complex logic, although the code is mostly self-explanatory.
+- The frequent use of f-strings enhances readability.
+Brief justification:
+- correctness: All exercises are completed correctly. Each function fulfills its specific requirements as outlined in the chapter content. The outputs match the expected outputs, and all functionalities are implemented as described.
+- readability: The code is well-structured and easy to follow. Function names are descriptive, and the use of f-strings makes the code readable. Some additional comments could further enhance readability, especially for more complex parts.
+- performance: The code demonstrates efficient use of built-in functions and data structures, resulting in good performance for the given tasks.
+- security: The code doesn't involve any external inputs or sensitive operations, making it inherently secure.
+
